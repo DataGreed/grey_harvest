@@ -216,7 +216,6 @@ def setup(parser):
     )
     parser.add_argument('-t', '--max-timeout', 
                     dest='max_timeout',
-                    nargs=1,
                     type=int,
                     metavar='<N>',
                     default=MAX_TIMEOUT,
